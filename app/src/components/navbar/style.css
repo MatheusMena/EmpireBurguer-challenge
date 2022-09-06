@@ -100,3 +100,39 @@ color: #34201F;
     
     color: #635352;
 }
+
+
+.ifood {
+
+position: absolute;
+width: 27px;
+height: 14.27px;
+left: 1229px;
+top: 24.8px;
+}
+
+.instagram {
+    position: absolute;
+width: 27px;
+height: 27px;
+left: 1269px;
+top: 18.44px;
+
+}
+
+.barra {
+position: absolute;
+width: 0px;
+height: 47.66px;
+left: 1309px;
+top: 8.11px;
+border: 1px solid #B50B04;
+}
+
+.contato {
+    position: absolute;
+    width: 123px;
+    height: 34px;
+    left: 1322px;
+    top: 14.94px;
+}
