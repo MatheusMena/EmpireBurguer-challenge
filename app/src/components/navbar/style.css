@@ -1,0 +1,102 @@
+.navbar  {
+background: rgba(59, 32, 11, 0.05);
+backdrop-filter: blur(10px);
+position: absolute;
+width: 1920px;
+height: 63.87px;
+left: 0px;
+top: 0px;
+justify-content: center;
+align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 231px;
+    height: 33px;
+    left: 408.69px;
+    top: 17.03px;
+
+}
+
+.home {
+position: absolute;
+width: 49px;
+height: 26px;
+left: 701.04px;
+top: 18.94px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #34201F;
+}
+
+.promo {
+    position: absolute;
+    width: 81px;
+    height: 26px;
+    left: 766.04px;
+    top: 18.94px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #635352;
+}
+
+.cardapio {
+    position: absolute;
+    width: 73px;
+    height: 26px;
+    left: 863.04px;
+    top: 18.94px;
+    
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    
+    color: #635352;
+}
+
+.comentario {
+    position: absolute;
+    width: 95px;
+    height: 26px;
+    left: 952.04px;
+    top: 18.94px;
+     
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #635352;
+}
+
+.contato {
+    position: absolute;
+    width: 65px;
+    height: 26px;
+    left: 1063.04px;
+    top: 18.94px;
+    
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #635352;
+}

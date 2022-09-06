@@ -1,0 +1,9 @@
+.menu {
+    background: url('../../../../assets/banner-hero.png');
+    background-color: aquamarine;
+    position: absolute;
+    width: 1920px;
+    height: 545px;
+    left: 0px;
+    top: 0px;
+}
