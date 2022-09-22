@@ -1,0 +1,68 @@
+.func {
+    display: flex;
+    align-items: center;
+    background: #F43127;
+    border-radius: 10px;
+    width: 570px;
+    height: 130.93px;
+    }
+  
+  .timeIcon {
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(29, 6, 5, 0.4);
+  }
+  
+  .funcionamento {
+  align-self: flex-start;
+  margin-left: 2rem;
+  margin-top: 5%;
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: rgba(29, 6, 5, 0.69);
+  }
+  
+  .diasFuncionamento {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top:  5px;
+  }
+  
+.containerAtend {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+
+    margin-top: 50px;
+}
+
+  .aditionalInfo {
+      margin-top: 2%;
+  margin-left: 5%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(29, 6, 5, 0.69);
+  }
+  
+  .hashEmpire {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.0202px;
+  line-height: 28px;
+  padding-right: 100px;
+  text-transform: uppercase;
+  color: #F43127;
+  }

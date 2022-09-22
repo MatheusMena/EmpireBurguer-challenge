@@ -1,0 +1,38 @@
+.maps {
+    max-width: 1920px;
+    width: 100%;
+    height: 208px;
+}
+
+.local {
+margin-top: 10%;
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 35px;
+/* identical to box height, or 110% */
+
+text-align: center;
+text-transform: uppercase;
+
+/* Título */
+
+color: rgba(29, 6, 5, 0.9);
+}
+
+.titleMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitleMap {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: rgba(29, 6, 5, 0.69);
+}

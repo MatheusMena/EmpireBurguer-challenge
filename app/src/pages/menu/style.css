@@ -2,23 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
-.menu {
+html {
     background: url('../../../../assets/banner-hero.png');
-    background-color: aquamarine;
-    position: absolute;
-    width: 1920px;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 545px;
-    left: 0px;
-    top: 0px;
+    width: 100%;
+    background-position: center;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 1920px;
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 .title {
-position: absolute;
-width: 234px;
-height: 23px;
-left: 370.35px;
-top: 160.71px;
+/* width: 40%;
+height: 23px; */
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
@@ -28,34 +38,30 @@ color: rgba(29, 6, 5, 0.9);
 }
 
 .biggerTitle {
-position: absolute;
-width: 468px;
-height: 86px;
-left: 376.35px;
-top: 198.04px;
+    width: 468px;
+    height: 86px;
+/* width: 70%;
+height: 86px; */
 
 }
 
 .subtitle {
-position: absolute;
-width: 415px;
-height: 32px;
-left: 376.35px;
-top: 286.76px;
+/* width: 415px;
+height: 32px; */
 color: rgba(29, 6, 5, 0.69);
 font-family: 'Lato';
 font-style: normal;
-font-weight: 400;
+/* font-weight: 400;
 font-size: 22.861px;
-line-height: 32px;
+line-height: 32px; */
 }
 
 .text {
     background-color: #F59A1B;
-    padding: 5px;
-    border-radius: 10px;
+     padding: 5px; 
+     border-radius: 10px; 
     color: rgb(106,59,13);
-    font-weight:900;
+    /* font-weight:900; */
     font-family: Lato;
     font-style: normal;
 }
@@ -65,75 +71,64 @@ line-height: 32px;
     text-decoration: none;
     border: none;
     padding: 10.1605px 20.3209px;
-    position: absolute;
     width: 198.64px;
     height: 52.32px;
-    left: 375px;
-    top: 350.1px;
     border-radius:  5.08px;
     color: #FFFFFF;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 700;
-    font-size: 22.861px;
+    /* font-weight: 700;
+    font-size: 22.861px; */
 }
+
+/* Card de informações extras */
 
 .extraInfo {
+margin-top: 8.5%;
+/* margin-left: 5%; */
 display: flex;
 flex-direction: row;
-position: absolute;
 width: 970px;
 height: 118.54px;
-left: 475px;
-top: 494.23px;
 background: #FFFFFF;
-/* Shadow */
-
 box-shadow: 0px 4px 40px rgba(179, 155, 132, 0.5);
-border-radius: 10px;
+border-radius: 0.8rem;
 }
 
-.icons {
- display: flex;
- flex-direction: row;
- margin-right: 20px;
- margin-top: 10px;
-
-}
 
 .iconTitle {
 font-family: 'Lilita One';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 22px;
+line-height: 22px; 
 text-transform: uppercase;
 color: rgba(29, 6, 5, 0.9);
 text-transform: uppercase;
-width: 150px;
-margin-bottom: -5px;
+width: 150px; 
+margin-bottom: -5px; 
 text-align: left;
 }
 
 .iconDisplay {
-    margin-left: 7px;
-    display: flex;
-    width: 200px;
-    flex-direction: column;
+ margin-left: 7px; 
+display: flex;
+ width: 200px; 
+flex-direction: column;
     justify-content: left;
     justify-items:start;
     border-right: 1px solid rgba(73, 46, 21, 0.15);
-    margin-bottom: 10px;
+     margin-bottom: 10px; 
 }
 
 .iconInfo {
- text-align: left;
- font-family: 'Lato';
+text-align: left;
+font-family: 'Lato';
 font-style: normal;
-font-weight: 400;
+ font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-/* or 120% */
+line-height: 19px; 
+ /* or 120%  */
 
 
 /* Texto */
@@ -144,13 +139,84 @@ opacity: 0.6;
 }
 
 #burg {
-    margin-left: 20px;
+     margin-left: 20px; 
 }
 
 .iconImg{
-    margin-right: 20px;
+     margin-right: 20px; 
 }
 
 #deliverySpeed {
     border: none;
 }
+
+@media screen and (max-width:1775px){
+    .flexContainer  {
+        margin-left: 14%;
+       }
+}
+
+
+@media screen and (max-width:1600px){
+   .flexContainer  {
+    margin-left: 2%;
+   }
+}
+
+@media screen and (max-width:1300px){  
+
+    .flexContainer  {
+        margin-left: 14%;
+       }
+
+    .biggerTitle {
+        width: 425px;
+        height: 68px
+    
+    }   
+}
+
+@media screen and (max-width:1150px){
+    .flexContainer  {
+        margin-left: 2%;
+       }
+
+    .biggerTitle {
+        width: 425px;
+        height: 68px
+    
+    }   
+}
+
+@media screen and (max-width:950px){
+    html {
+        background: url('../../../../assets/Bannermobile.png');
+        background-size: cover;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+    }
+
+    .flexContainer  {
+        padding-top: 2rem;
+        width: 50%;
+        margin: auto;
+       }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .title {
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+    }
+    .buyButton {
+        width: 40%;
+        margin-top: 1rem;
+        margin: auto;
+    }
+}
+

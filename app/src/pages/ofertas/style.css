@@ -1,5 +1,68 @@
-.ofert {
-    background-color: blueviolet;
-    width: 100%;
-    height: 1000px;
+.containerOferta {
+  display: grid;
+  /* margin-left: 20%; */
+  width: 1171px;
+  /* grid-template-columns: 770px 371px;
+  grid-template-rows: 170px 1fr 1fr ; */
+  grid-gap: 10px;
+  grid-template-areas: "um um"
+    "dois tres""dois q";
+}
+
+.um {
+  margin-top: 5%;
+  font-size: 2.5rem;
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  grid-area: um;
+  color: rgba(29, 6, 5, 0.9);
+}
+
+.um p {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: rgba(29, 6, 5, 0.69);
+}
+
+.dois {
+  max-width: 770px;
+  min-width: 570px;
+  grid-area: dois;
+}
+
+.dois img {
+  width: 100%;
+  /* width: 770px;
+  height:
+    430px; */
+}
+
+.tres {
+  max-width: 370px;
+  min-width: 170px;
+  grid-area: tres;
+}
+
+.tres img {
+  width: 100%;
+  /* width: 370.96px;
+  height: 200px; */
+}
+
+.quatro {
+  max-width: 370px;
+  min-width: 170px;
+  grid-area: q;
+}
+
+.quatro img {
+  width: 100%;
+  /* width: 370.96px;
+  height: 200px; */
 }
