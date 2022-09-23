@@ -37,11 +37,10 @@
   }
   
 .containerAtend {
+    align-self: center;
     display: flex;
     max-width: 1920px;
-    width: 100%;
-    margin: auto;
-
+    width: 1170px;
     margin-top: 50px;
 }
 

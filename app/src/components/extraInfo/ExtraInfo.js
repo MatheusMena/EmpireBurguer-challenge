@@ -4,7 +4,6 @@ import delivery from "../../components/navbar/images/delivery.svg";
 
 export default function ExtraInfo() {
   return (
-    <div>
       <div className="extraInfo">
         <div className="icons">
           <img
@@ -53,6 +52,5 @@ export default function ExtraInfo() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

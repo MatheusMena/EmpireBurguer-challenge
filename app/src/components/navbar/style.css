@@ -13,21 +13,18 @@ background: rgba(59, 32, 11, 0.05);
 backdrop-filter: blur(10px);
 }
 
-.cent {
-    display: flex;
-    gap: 4%;
-}
 /* first part */
-
-/* https://khaledkzy.github.io/pixel-vh-vw-converter/ */
 .logo {
-/* position: absolute;
-left: 20%;
-top: 14.84px; */
+margin-right: 25px;
 width: 264.69px;
 height: 35.19px;
 }
-
+.alignThirdPart {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
 
 /* second part */
 .iconsNav {
@@ -71,7 +68,7 @@ font-weight: 700;
 /* third part */
 .thirdPart {
     display: flex;
-    /* padding-right: 12%; */
+    padding-right: 14%;
     align-items: center;
     gap: 3%;
 }
@@ -135,9 +132,6 @@ border: none;
 @media screen and (max-width:1300px){  
     .navbar {
         justify-content: space-evenly;
-    }
-   .icons{
-        display: none;
     }
     .items {
         display: none;

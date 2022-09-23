@@ -9,8 +9,8 @@ import MenuIcon from "./images/menuIcon.svg";
 export default function Navbar() {
   return (
     <div>
-      
       <nav className="navbar">
+      <div className="alignThirdPart">
        <div className="alignNav">
          <img className="logo" src={logo} alt="logo" />  
       
@@ -18,10 +18,10 @@ export default function Navbar() {
           <a href="#home" className="items home">
             Home
           </a>
-          <a href="#promos"className="items promo">
+          <a href="#ofertas"className="items promo">
             Promoção
           </a>
-            <a href="#ofertas" className="items cardapio">
+            <a href="#cardapio" className="items cardapio">
              Cardapio 
             </a> 
           <a href="#clientes"className="items comentario">
@@ -46,6 +46,7 @@ export default function Navbar() {
           <img className="instagram" src={Instagram} alt="logo Instagram" />
           <div className="barra" />
           <img className="telefone" src={Contato} alt="logo telefone" />
+        </div>
         </div>
       </nav>
       <div className="mobileMenu">

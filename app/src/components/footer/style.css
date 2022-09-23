@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #FFFFFF;
+    gap: 55px;
+}
+
+.logoFooter{
+}
+
+.iconsFooter {
+    padding-left: 15%;
+    gap: 15px;
+    display: flex;
+}
+
+.itemsFooter {
+    display: flex;
+    text-decoration: none;
+    border: none;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #3A210B;
+}
+
+.thirdPartFooter {
+    /* padding-right: 2%; */
+}
+
+.containerFooter {
+    align-self: center;
+    width:65%;
+}
