@@ -9,7 +9,7 @@ export default function Ofertas() {
   return (
     <div id="ofertas" className="containerOferta">
       <div className="um">
-        Ofertas especiais
+        OFERTAS ESPECIAIS
         <p>
           Aproveite todas as nossas ofertas, fiquem de olhos abertos, porque
           sempre estamos mudando o nosso cardapio.
@@ -18,6 +18,7 @@ export default function Ofertas() {
       <div className="dois">
         <img src={oferta1} alt="" />
         <p className="textOferta1">Burger imperial+batata</p>
+        <p className="textOferta1Mobile">BURGUER PRIME+BATATA</p>
         <p className="textOferta1Price">250kg</p>
         <p className="apenas">Apenas</p>
         <p className="hoje">HOJE</p>

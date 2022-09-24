@@ -6,7 +6,7 @@ import ExtraInfo from "../../components/extraInfo/ExtraInfo";
 
 export default function Menu() {
   return (
-    <div className="menu">
+    <div className="menu" id="home">
       <Navbar />
       <div className="flexContainer">
         <BurguerHead />

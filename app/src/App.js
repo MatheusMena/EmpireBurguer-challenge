@@ -9,9 +9,11 @@ function App() {
   return (
     <div className="App">
     <Menu/>
-   <Ofertas/> 
+    
+    <Ofertas/> 
    <Atendimento />
    <GoogleMaps />
+   
    <br/>
    <Footer />
    <hr></hr>

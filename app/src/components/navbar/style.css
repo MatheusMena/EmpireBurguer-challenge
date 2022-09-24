@@ -23,6 +23,7 @@ height: 35.19px;
     display: flex;
     justify-content: space-between;
     margin: auto;
+    margin-left: 20%;
     width: 70%;
 }
 
@@ -73,55 +74,25 @@ font-weight: 700;
     gap: 3%;
 }
 
- .ifood {
-/* width: 1.9vw;
-height: 1vw; */
-}
-
-.instagram {
-/* width: 1.9vw;
-height: 1.9vw; */
-} 
-
-.barra {
-/* height: 3.4vw; */
-border: 1px solid #B50B04;
-}
-
- .telefone {
-    /* width: 10vw;
-    height: 2.5vw; */
-} 
-
 
 .mobileMenu {
     display: none;
 }
 
 .buttonIcon {
-    padding: 0;
+display: none;
+padding: 0;
 text-decoration: none;
 border: none;
+cursor: pointer;
 }
 
 .iconMenu {
-    display: none;
     width: 30px;
     height: 30px;
 }
 
 
-@media screen and (max-width:1920px){
-    .comentario {
-        
-    }
-}
-
-/* @media screen and (max-width:1775px){
-    .navbar {
-        justify-content: space-evenly;
-    }
-} */
 
 @media screen and (max-width:1400px){
     .navbar {
@@ -133,13 +104,54 @@ border: none;
     .navbar {
         justify-content: space-evenly;
     }
+    .alignThirdPart{
+        margin: auto;
+    }
+    .mobileMenu  {
+        transition: transform 0.4s ease-in;
+        position: absolute;
+        z-index: 3;
+        display: block;
+        background-color: #F59A1B;;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .itemsMobile {
+        color: 
+        #141318;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    .itemsMobile:hover{
+        color: #34201F;
+        font-weight: 700;
+        }
     .items {
         display: none;
-    } 
-    .menu-icon {
+    }
+    .iconsNav {
+        align-self: center;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .buttonIcon {
+        z-index: 4;
+        left: 90%;
+        position: absolute;
         display: block;
     }
-
 }
 
 @media screen and (max-width:950px){
@@ -147,8 +159,9 @@ border: none;
         align-items: center;
     }
  .logo {
-    position: relative;
-    margin-left:3%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left:4%;
     left: 0;
     top:0;
  }   
@@ -161,6 +174,7 @@ border: none;
     top:28%;
     left: 85%;
 }    
+
 }
 
 

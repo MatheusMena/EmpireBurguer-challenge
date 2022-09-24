@@ -21,9 +21,11 @@
   line-height: 35px;
   grid-area: um;
   color: rgba(29, 6, 5, 0.9);
+  
 }
 
 .um p {
+margin: 4px 4px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
@@ -35,7 +37,7 @@ color: rgba(29, 6, 5, 0.69);
 .dois {
   position: relative;
   max-width: 770px;
-  min-width: 570px;
+  min-width: 370px;
   grid-area: dois;
 }
 
@@ -49,7 +51,7 @@ color: rgba(29, 6, 5, 0.69);
 .tres {
   position: relative;
   max-width: 370px;
-  min-width: 170px;
+  min-width: 370px;
   grid-area: tres;
 }
 
@@ -147,3 +149,57 @@ color: rgba(29, 6, 5, 0.9);
   line-height: 25px;
   color: rgba(29, 6, 5, 0.69);
 }
+
+.textOferta1Mobile {
+  display: none;
+}
+
+@media screen and (max-width:1200px){ 
+  .containerOferta {
+    width: 370px;
+    /* grid-gap: 10px; */
+    grid-template-columns: 371px;
+    grid-template-rows: 140px ; 
+    grid-template-areas:"um"
+      "dois""tres" "q";
+  } 
+  .textOferta1 {
+    display: none;
+  }
+ .textOferta1Mobile {
+   display: block;
+   position: absolute;
+   top: -8px;
+   left: 12px;
+  font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 20.4876px;
+line-height: 23px;
+color: rgba(255, 255, 255, 0.9);
+ } 
+ .apenas {
+   display: block;
+   top: 150px;
+   left: 310px;
+   font-size: 10.912px;
+line-height: 12px;
+ }
+ .hoje {
+  display: block;
+  top: 160px;
+  left: 310px;
+  font-size: 10.912px;
+line-height: 12px;
+font-weight: 400;
+font-size: 19.9263px;
+line-height: 13px;
+
+}
+.dois {
+  width: 370px;
+}
+.um p {
+  width: 100%;
+}
+} 

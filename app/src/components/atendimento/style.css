@@ -39,13 +39,14 @@
 .containerAtend {
     align-self: center;
     display: flex;
+    flex-wrap: wrap;
     max-width: 1920px;
     width: 1170px;
     margin-top: 50px;
 }
 
   .aditionalInfo {
-      margin-top: 2%;
+  margin-top: 2%;
   margin-left: 5%;
   font-family: 'Lato';
   font-style: normal;
@@ -65,3 +66,35 @@
   text-transform: uppercase;
   color: #F43127;
   }
+
+  @media screen and (max-width:1300px){ 
+    .containerAtend {
+      width: 379px;
+      height: 110px;
+      margin-bottom: 25%;
+    }
+    .timeIcon img {
+      width: 73px;
+    }
+    .funcionamento {
+      font-size: 18px;
+line-height: 25px;
+    }
+    .diasFuncionamento {
+      font-size: 14px;
+line-height: 20px;
+    }
+    .aditionalInfo {
+      width: 98%;
+      margin: auto;
+      margin-top: 5%;
+    }
+    .hashEmpire {
+      font-size: 41.0202px;
+line-height: 28px;
+/* or 68% */
+
+      padding: 0;
+text-align: center;
+    }
+  } 
